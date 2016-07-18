@@ -103,22 +103,25 @@ Please phone to discuss your requirements
 							<br />
 
 							<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-							<div style='overflow:hidden; height:440px; width:800px;'>
+							<div style='overflow:hidden; height:440px; width:800px; color:#000000;'>
 							<div id='gmap_canvas' style='height:440px; width:800px;'>
 								
-							</div><div><small><a href="http://embedgooglemaps.com"></a></small></div><div><small>
-							<a href="https://termsandcondiitionssample.com">terms and conditions generator</a>
-							</small></div><style>#gmap_canvas img{max-width:none!important; background:none!important}</style></div>
+							</div>
+							<div><small><a href="http://embedgooglemaps.com"></a></small></div>
+							<style>
+								#gmap_canvas img{max-width:none!important; background:none!important}
+							</style>
 							<script type='text/javascript'>
 								function init_map(){
-									var myOptions = {zoom:13, center:new google.maps.LatLng(-45.7769816,170.53553779999993), mapTypeId: google.maps.MapTypeId.ROADMAP};
+									var myOptions = {zoom:15, center:new google.maps.LatLng(-45.7769816,170.53553779999993), mapTypeId: google.maps.MapTypeId.HYBRID};
 									map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
 									marker = new google.maps.Marker({map: map, position: new google.maps.LatLng(-45.7769816, 170.53553779999993)});
-									infowindow = new google.maps.InfoWindow({content:'<strong>Waitati Valley Equestrian Centre</strong><br>Waitati Valley Road<br>'});
+									infowindow = new google.maps.InfoWindow(
+										{content:'<strong style="color: black;">Waitati Valley Equestrian Centre</strong><br>Waitati Valley Road<br>'}
+									);
 									google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);
 								}google.maps.event.addDomListener(window, 'load', init_map);
 							</script>
-
 							</span>
 							</p>
 							<!--
@@ -132,30 +135,11 @@ Please phone to discuss your requirements
 				<!-- Contact -->
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
-							<h2>Get in touch</h2>
+							<h1>Get in touch</h1>
 							<p>Put some information here about where or how people can contact. Like, use the thing below, or ring etc.</p>
 							<div class="split style1">
 								<section>
-									<form method="post" action="#">
-										<div class="field half first">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="5"></textarea>
-										</div>
-										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
-										</ul>
-									</form>
-								</section>
-								<section>
-									<ul class="contact">
+								<ul class="contact">
 										<li>
 											<h3>Address</h3>
 											<span>Waitati Valley Road,<br />
@@ -167,19 +151,19 @@ Please phone to discuss your requirements
 											<h3>Email</h3>
 											<a href="mailto:thesonicsmith@gmail.com">waitativalleyequestrain@gmail.com</a>
 										</li>
+										</ul>
+								</section>
+								<section>
+									<ul class="contact">
 										<li>
 											<h3>Phone</h3>
 											<span>(027) 724-0871</span>
 										</li>
 										<li>
 											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="#" class="fa-twitter"><span class="label">Twitter</span></a></li>
+											<!-- <ul class="icons"> -->
 												<li><a href="http://www.facebook.com/Waitati-Valley-Equestrian-Centre-448743471832939/" class="fa-facebook"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
-											</ul>
+											<!-- </ul> -->
 										</li>
 									</ul>
 								</section>
@@ -189,23 +173,22 @@ Please phone to discuss your requirements
 
 					<!-- Gallery -->
 					<section id="four" class="wrapper style1 fullscreen fade-up">
-						<div class="inner" align="center">
-
-						<div class="thumbnails">
-							<img onmouseover="preview.src=img01.src" name="img01" src="images/img01.jpg" alt=""/>
-							<img onmouseover="preview.src=img02.src" name="img02" src="images/img02.jpg" alt=""/>
-							<img onmouseover="preview.src=img03.src" name="img03" src="images/img03.jpg" alt=""/>
-							<img onmouseover="preview.src=img04.src" name="img04" src="images/img04.png" alt=""/>
-							<img onmouseover="preview.src=img05.src" name="img05" src="images/img05.jpg" alt=""/>
-							<img onmouseover="preview.src=img06.src" name="img06" src="images/img06.jpg" alt=""/>
-							<img onmouseover="preview.src=img07.src" name="img07" src="images/img07.png" alt=""/>
-							<img onmouseover="preview.src=img08.src" name="img08" src="images/img08.jpg" alt=""/>
-							<img onmouseover="preview.src=img09.src" name="img09" src="images/img09.png" alt=""/>
-						</div><br/>
-
-						<div class="preview">
-							<img name="preview" src="images/img01.jpg" alt=""/>
-						</div>
+						<div class="inner">
+							<h1>Gallery</h1>
+							<div class="thumbnails" align="center">
+								<img onmouseover="preview.src=img01.src" name="img01" src="images/img01.jpg" alt=""/>
+								<img onmouseover="preview.src=img02.src" name="img02" src="images/img02.jpg" alt=""/>
+								<img onmouseover="preview.src=img03.src" name="img03" src="images/img03.jpg" alt=""/>
+								<img onmouseover="preview.src=img04.src" name="img04" src="images/img04.png" alt=""/>
+								<img onmouseover="preview.src=img05.src" name="img05" src="images/img05.jpg" alt=""/>
+								<img onmouseover="preview.src=img06.src" name="img06" src="images/img06.jpg" alt=""/>
+								<img onmouseover="preview.src=img07.src" name="img07" src="images/img07.png" alt=""/>
+								<img onmouseover="preview.src=img08.src" name="img08" src="images/img08.jpg" alt=""/>
+								<img onmouseover="preview.src=img09.src" name="img09" src="images/img09.png" alt=""/>
+							</div><br/>
+							<div class="preview"  align="center">
+								<img name="preview" src="images/img01.jpg" alt=""/>
+							</div>
 						</div>
 					</section>
 

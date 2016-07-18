@@ -1,4 +1,4 @@
-@import url(font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Abel);
 
 /*
 	Hyperspace by HTML5 UP
@@ -1622,7 +1622,7 @@
 	}
 
 	body {
-		background: #312450;
+		background: #336600;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1640,7 +1640,7 @@
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.55);
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: 'Abel', sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
@@ -1721,10 +1721,10 @@
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #5e42a6, #336600);
+				background-image: -webkit-linear-gradient(to right, #5e42a6, #336600);
+				background-image: -ms-linear-gradient(to right, #5e42a6, #336600);
+				background-image: linear-gradient(to right, #5e42a6, #336600);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -1809,7 +1809,7 @@
 		background: rgba(255, 255, 255, 0.05);
 		border-radius: 0.25em;
 		border: solid 1px rgba(255, 255, 255, 0.15);
-		font-family: "Courier New", monospace;
+		font-family: 'Abel', sans-serif;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -1817,7 +1817,7 @@
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: 'Abel', sans-serif;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -1976,7 +1976,7 @@
 		button.special,
 		.button.special {
 			background-color: #ffffff;
-			color: #312450 !important;
+			color: #336600 !important;
 		}
 
 			input[type="submit"].special:after,
@@ -2381,7 +2381,7 @@
 		.select-wrapper:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: 'Abel';
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2406,7 +2406,7 @@
 		}
 
 	select option {
-		background-color: #312450;
+		background-color: #336600;
 		color: #ffffff;
 	}
 
@@ -2456,7 +2456,7 @@
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: 'Abel';
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -2482,7 +2482,7 @@
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #b74e91;
+			color: #336600;
 			content: '\f00c';
 		}
 
@@ -2536,7 +2536,6 @@
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2552,7 +2551,7 @@
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			color: #336600;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -2563,27 +2562,27 @@
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: #336600;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					color: #336600;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
+					color: #336600;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #3e4094;
+					color: #336600;
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #336600;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					color: #336600;
 				}
 
 /* Image */
@@ -2700,7 +2699,7 @@
 					ul.icons li > a:before, ul.icons li > span:before {
 						-moz-osx-font-smoothing: grayscale;
 						-webkit-font-smoothing: antialiased;
-						font-family: FontAwesome;
+						font-family: 'Abel';
 						font-style: normal;
 						font-weight: normal;
 						text-transform: none !important;
@@ -2930,14 +2929,6 @@
 			padding-left: 2.5em;
 		}
 
-		.split.style1 > :nth-child(2n - 1) {
-			width: calc(66.66666% - 2.5em);
-		}
-
-		.split.style1 > :nth-child(2n) {
-			width: calc(33.33333% - 2.5em);
-		}
-
 		@media screen and (max-width: 1680px) {
 
 			.split > * {
@@ -2950,14 +2941,6 @@
 
 			.split > :nth-child(2n) {
 				padding-left: 2em;
-			}
-
-			.split.style1 > :nth-child(2n - 1) {
-				width: calc(66.66666% - 2em);
-			}
-
-			.split.style1 > :nth-child(2n) {
-				width: calc(33.33333% - 2em);
 			}
 
 		}
@@ -3249,31 +3232,31 @@
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color: #336600;
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #336600;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #336600;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #336600;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: #336600;
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #336600;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #336600;
 		}
 
 		.wrapper.fullscreen {
@@ -3380,7 +3363,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #336600;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3771,14 +3754,14 @@
 			}
 
 			#sidebar nav a:before {
-				background: #336600;
+				background: #225500;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #669900, #669900);
-				background-image: -webkit-linear-gradient(to right, #669900, #669900);
-				background-image: -ms-linear-gradient(to right, #669900, #669900);
-				background-image: linear-gradient(to right, #669900, #669900);
+				background-image: -moz-linear-gradient(to right, #225500, #669900);
+				background-image: -webkit-linear-gradient(to right, #225500, #669900);
+				background-image: -ms-linear-gradient(to right, #225500, #669900);
+				background-image: linear-gradient(to right, #225500, #669900);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3867,7 +3850,7 @@
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #336600;
 						}
 
 		}
