@@ -1622,7 +1622,7 @@
 	}
 
 	body {
-		background: #336600;
+		/*background: #336600;*/
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -2406,7 +2406,7 @@
 		}
 
 	select option {
-		background-color: #336600;
+		/*background-color: #336600;*/
 		color: #ffffff;
 	}
 
@@ -3231,7 +3231,7 @@
 
 			}
 
-		.wrapper.alt {
+/*		.wrapper.alt {
 			background-color: #336600;
 		}
 
@@ -3257,7 +3257,7 @@
 
 		.wrapper.style3-alt {
 			background-color: #336600;
-		}
+		}*/
 
 		.wrapper.fullscreen {
 			display: -moz-flex;
@@ -3363,7 +3363,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #336600;
+		/*background-color: #336600;*/
 		cursor: default;
 		padding: 1.75em 2em;
 	}
