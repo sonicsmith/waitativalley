@@ -8,9 +8,9 @@
 
 	skel.breakpoints({
 		xlarge:	'(max-width: 1680px)',
-		large:	'(max-width: 1280px)',
-		medium:	'(max-width: 980px)',
-		small:	'(max-width: 736px)',
+		large:	'(max-width: 900px)',
+		medium:	'(max-width: 800px)',
+		small:	'(max-width: 600px)',
 		xsmall:	'(max-width: 480px)'
 	});
 
@@ -135,10 +135,10 @@
 				offset: function() {
 
 					// If <=large, >small, and sidebar is present, use its height as the offset.
-						if (skel.breakpoint('large').active
-						&&	!skel.breakpoint('small').active
-						&&	$sidebar.length > 0)
-							return $sidebar.height();
+						// if (skel.breakpoint('large').active
+						// &&	!skel.breakpoint('small').active
+						// &&	$sidebar.length > 0)
+						// 	return $sidebar.height();
 
 					return 0;
 

@@ -264,7 +264,7 @@
 
 	}
 
-	@media screen and (max-width: 1280px) {
+	@media screen and (max-width: 900px) {
 
 		.row > * {
 			padding: 0 0 0 1.5em;
@@ -479,7 +479,7 @@
 
 	}
 
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width: 800px) {
 
 		.row > * {
 			padding: 0 0 0 1.5em;
@@ -694,7 +694,7 @@
 
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 600px) {
 
 		.row > * {
 			padding: 0 0 0 1.5em;
@@ -1390,7 +1390,7 @@
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 900px) {
 
 			body, input, select, textarea {
 				font-size: 12pt;
@@ -1494,7 +1494,7 @@
 		font-size: 0.6em;
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 600px) {
 
 		h1 {
 			font-size: 2em;
@@ -1975,7 +1975,7 @@
 			opacity: 0;
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 800px) {
 
 			.features {
 				display: block;
@@ -1993,7 +1993,7 @@
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 600px) {
 
 			.features section {
 				padding: 2.5em 1.5em 0.1em 5.5em ;
@@ -2044,7 +2044,7 @@
 			margin: 2em 0 0 0 !important;
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 600px) {
 
 			form .field.half {
 				width: 100%;
@@ -2143,7 +2143,7 @@
 
 	select option {
 		/*background-color: #336600;*/
-		color: #ffffff;
+		color: #000000;
 	}
 
 	input[type="text"],
@@ -2681,7 +2681,7 @@
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 800px) {
 
 			.split {
 				display: block;
@@ -2711,7 +2711,7 @@
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 600px) {
 
 			.split > * {
 				margin: 3em 0 0 0;
@@ -2826,7 +2826,7 @@
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 800px) {
 
 			.spotlights > section {
 				display: block;
@@ -2850,7 +2850,7 @@
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 600px) {
 
 			.spotlights > section > .image {
 				height: 50vh;
@@ -2951,7 +2951,7 @@
 
 			}
 
-			@media screen and (max-width: 1280px) {
+			@media screen and (max-width: 900px) {
 
 				.wrapper > .inner {
 					width: 100%;
@@ -2959,7 +2959,7 @@
 
 			}
 
-			@media screen and (max-width: 736px) {
+			@media screen and (max-width: 600px) {
 
 				.wrapper > .inner {
 					padding: 3em 2em 1em 2em ;
@@ -2967,33 +2967,6 @@
 
 			}
 
-/*		.wrapper.alt {
-			background-color: #336600;
-		}
-
-		.wrapper.style1 {
-			background-color: #336600;
-		}
-
-		.wrapper.style1-alt {
-			background-color: #336600;
-		}
-
-		.wrapper.style2 {
-			background-color: #336600;
-		}
-
-		.wrapper.style2-alt {
-			background-color: #336600;
-		}
-
-		.wrapper.style3 {
-			background-color: #336600;
-		}
-
-		.wrapper.style3-alt {
-			background-color: #336600;
-		}*/
 
 		.wrapper.fullscreen {
 			display: -moz-flex;
@@ -3015,7 +2988,7 @@
 				height: 100vh;
 			}
 
-			@media screen and (max-width: 1280px) {
+			@media screen and (max-width: 900px) {
 
 				.wrapper.fullscreen {
 					min-height: calc(100vh - 2.5em);
@@ -3027,7 +3000,7 @@
 
 			}
 
-			@media screen and (max-width: 736px) {
+			@media screen and (max-width: 600px) {
 
 				.wrapper.fullscreen {
 					padding: 2em 0;
@@ -3099,7 +3072,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		/*background-color: #336600;*/
+
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3154,7 +3127,7 @@
 							color: #ffffff;
 						}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 600px) {
 
 			#header {
 				padding: 1em 2em;
@@ -3198,6 +3171,12 @@
 	}
 
 		@media screen and (max-width: 1280px) {
+			#sidebar + #wrapper {
+				margin-left: 15em;
+			}
+		}
+
+		@media screen and (max-width: 900px) {
 
 			#sidebar + #wrapper {
 				margin-left: 0;
@@ -3206,7 +3185,7 @@
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 600px) {
 
 			#sidebar + #wrapper {
 				padding-top: 0;
@@ -3224,7 +3203,7 @@
 		margin-left: 18em;
 	}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 900px) {
 
 			#sidebar + #wrapper + #footer {
 				margin-left: 0;
@@ -3530,6 +3509,13 @@
 		}
 
 		@media screen and (max-width: 1280px) {
+			#sidebar {
+				width: 15em;
+			}
+		}
+
+
+		@media screen and (max-width: 900px) {
 
 			#sidebar {
 				height: 3.5em;
@@ -3591,7 +3577,7 @@
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 600px) {
 
 			#sidebar {
 				display: none;
@@ -3613,7 +3599,7 @@
 			font-size: 1.25em;
 		}
 
-			@media screen and (max-width: 980px) {
+			@media screen and (max-width: 800px) {
 
 				#intro p br {
 					display: none;
@@ -3621,7 +3607,7 @@
 
 			}
 
-			@media screen and (max-width: 736px) {
+			@media screen and (max-width: 600px) {
 
 				#intro p {
 					font-size: 1em;
@@ -3629,7 +3615,7 @@
 
 			}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 900px) {
 
 			#intro {
 				background-attachment: scroll;
