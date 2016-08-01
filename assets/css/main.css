@@ -3592,7 +3592,7 @@
 		background-attachment: fixed;
 		background-image: url("images/bg.jpg");
 		background-position: bottom right;
-		background-repeat: no-repeat;
+		background-repeat: repeat;
 		background-size: auto;
 	}
 
@@ -3629,7 +3629,7 @@
 		background-attachment: fixed;
 		background-image: url("images/bg.jpg");
 		background-position: bottom right;
-		background-repeat: no-repeat;
+		background-repeat: repeat;
 		background-size: auto;
 	}
 		#one p {
@@ -3640,7 +3640,7 @@
 		background-attachment: fixed;
 		background-image: url("images/bg.jpg");
 		background-position: bottom right;
-		background-repeat: no-repeat;
+		background-repeat: repeat;
 		background-size: auto;
 	}
 		#two p {
@@ -3651,7 +3651,7 @@
 		background-attachment: fixed;
 		background-image: url("images/bg.jpg");
 		background-position: bottom right;
-		background-repeat: no-repeat;
+		background-repeat: repeat;
 		background-size: auto;
 	}
 		#three p {
@@ -3662,7 +3662,7 @@
 		background-attachment: fixed;
 		background-image: url("images/bg.jpg");
 		background-position: bottom right;
-		background-repeat: no-repeat;
+		background-repeat: repeat;
 		background-size: auto;
 	}
 		#four p {
