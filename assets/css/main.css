@@ -264,7 +264,7 @@
 
 	}
 
-	@media screen and (max-width: 900px) {
+	@media screen and (max-width: 900px), screen and (orientation:portrait) {
 
 		.row > * {
 			padding: 0 0 0 1.5em;
@@ -1390,7 +1390,7 @@
 
 		}
 
-		@media screen and (max-width: 900px) {
+		@media screen and (max-width: 900px), screen and (orientation:portrait) {
 
 			body, input, select, textarea {
 				font-size: 12pt;
@@ -2952,7 +2952,7 @@
 
 			}
 
-			@media screen and (max-width: 900px) {
+			@media screen and (max-width: 900px), screen and (orientation:portrait) {
 
 				.wrapper > .inner {
 					width: 100%;
@@ -2989,7 +2989,7 @@
 				height: 100vh;
 			}
 
-			@media screen and (max-width: 900px) {
+			@media screen and (max-width: 900px), screen and (orientation:portrait) {
 
 				.wrapper.fullscreen {
 					min-height: calc(100vh - 2.5em);
@@ -3177,7 +3177,7 @@
 			}
 		}
 
-		@media screen and (max-width: 900px) {
+		@media screen and (max-width: 900px), screen and (orientation:portrait) {
 
 			#sidebar + #wrapper {
 				margin-left: 0;
@@ -3204,7 +3204,7 @@
 		margin-left: 18em;
 	}
 
-		@media screen and (max-width: 900px) {
+		@media screen and (max-width: 900px), screen and (orientation:portrait) {
 
 			#sidebar + #wrapper + #footer {
 				margin-left: 0;
@@ -3516,7 +3516,7 @@
 		}
 
 
-		@media screen and (max-width: 900px) {
+		@media screen and (max-width: 900px), screen and (orientation:portrait) {
 
 			#sidebar {
 				height: 3.5em;
@@ -3616,7 +3616,7 @@
 
 			}
 
-		@media screen and (max-width: 900px) {
+		@media screen and (max-width: 900px), screen and (orientation:portrait) {
 
 			#intro {
 				background-attachment: scroll;
