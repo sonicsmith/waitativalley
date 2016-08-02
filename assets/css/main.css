@@ -3569,6 +3569,7 @@
 						height: inherit;
 						line-height: inherit;
 						padding: 0;
+						font-size: 0.7em;
 					}
 
 						#sidebar nav a:after {
@@ -3589,10 +3590,11 @@
 /* Intro */
 
 	#intro {
+		background-color: #114400;
 		background-attachment: fixed;
 		background-image: url("images/bg.jpg");
 		background-position: bottom right;
-		background-repeat: repeat;
+		background-repeat: no-repeat;
 		background-size: auto;
 	}
 
@@ -3616,20 +3618,13 @@
 
 			}
 
-		@media screen and (max-width: 900px), screen and (orientation:portrait) {
-
-			/*#intro {
-				background-attachment: scroll;
-			}*/
-
-		}
-
 /* Pages */		
 	#one {
+		background-color: #114400;
 		background-attachment: fixed;
 		background-image: url("images/bg.jpg");
 		background-position: bottom right;
-		background-repeat: repeat;
+		background-repeat: no-repeat;
 		background-size: auto;
 	}
 		#one p {
@@ -3637,10 +3632,11 @@
 		}
 
 	#two {
+		background-color: #114400;
 		background-attachment: fixed;
 		background-image: url("images/bg.jpg");
 		background-position: bottom right;
-		background-repeat: repeat;
+		background-repeat: no-repeat;
 		background-size: auto;
 	}
 		#two p {
@@ -3648,10 +3644,11 @@
 		}
 
 	#three {
+		background-color: #114400;
 		background-attachment: fixed;
 		background-image: url("images/bg.jpg");
 		background-position: bottom right;
-		background-repeat: repeat;
+		background-repeat: no-repeat;
 		background-size: auto;
 	}
 		#three p {
@@ -3659,15 +3656,17 @@
 		}
 
 	#four {
+		background-color: #114400;
 		background-attachment: fixed;
 		background-image: url("images/bg.jpg");
 		background-position: bottom right;
-		background-repeat: repeat;
+		background-repeat: no-repeat;
 		background-size: auto;
 	}
 		#four p {
 			font-size: 1.25em;
 		}
+
 
 /* Gallery formatting */
 	.thumbnails img {
