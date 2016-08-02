@@ -3668,6 +3668,26 @@
 		}
 
 
+@media screen and (max-width: 900px), screen and (orientation:portrait) {
+		#intro {
+			background-position: top right;
+		}
+		#one {
+			background-position: top right;
+		}
+		#two {
+			background-position: top right;
+		}
+		#three {
+			background-position: top right;
+		}
+		#four {
+			background-position: top right;
+		}
+}
+
+
+
 /* Gallery formatting */
 	.thumbnails img {
 		height: 70px;
